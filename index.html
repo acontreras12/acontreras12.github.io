@@ -6,21 +6,45 @@
 <body>
   <img src="img/imagen_cabecera.png" alt="imagen" height="124px">
   <h1 class="encabezado">Bienvenidos</h1>
-
   <p>Esto es una página web <em>muy</em> básica</p>
   <p>Para poner una imagen se utiliza la etiqueta
     <code><b>img</b></code>:</p>
   <img src="img/espada0.jpg" height="200px">
   <div>
-  <p>Este es el primer <em>párrafo</em></p>
-  <p>Este es el segundo <em>párrafo</em></p>
+    <p>Este es el primer <em>párrafo</em></p>
+    <p>Este es el segundo <em>párrafo</em></p>
   </div>
-  <div style="color:#433a78;">Este párrafo está sin la etiqueta <b>p</b>.</div>
-  <p>Aquí he quitado el <em>párrafo final</em> para poner otro, también después de crear la rama de trabajo.</p>
+  <h2>Cómo funcionan los estilos</h2>
+    <div>
+        <p>Cuando se carga la página web, la cabeza ("head")
+          carga el archivo <code>css/estilos.css</code>. 
+          Cada etiqueta puede tener en este archivo una definición 
+          de estilo. Cada etiqueta también puede tener un
+          parámetro <code>class</code>, cuya definición también
+          (debe) estar dentro del archivo de estilos (con el 
+          nombre precedido por un punto).
+        </p>
+        <p>
+          Veamos un ejemplo:
+        </p>
+        <code>
+          <p>.cita {<br/>
+            &ThickSpace;font-style:italic;<br/>
+            &ThickSpace;color:azure;<br/>
+          }</p>
+        </code>
+        <p>Se vería:</p>
+        <p class = "cita">Este párrafo tiene el estilo "cita"
+          aplicado. Le he indicado eso escribiendo <code>&lt;p class
+           = "cita"&gt;</code> en la etiqueta en la que
+          comienza el párrafo.
+        </p>
+    </div>
 
   <div><p>
   <a href="https://github.com/acontreras12">Perfil personal</a>
   </p>
   <p style="font-size: small;">Versión 1.0</p>
   </div>
+
 </body>

@@ -9,3 +9,8 @@ div {
 body {
     background-color: darkslategray;
 }
+
+.cita {
+    font-style:italic;
+    color:azure;
+}
