@@ -1,7 +1,11 @@
 .encabezado {
-    color:brown;
+    color:rgb(231, 190, 190);
 }
 
 div {
-    color:blueviolet;
+    color:rgb(241, 241, 220);
+}
+
+body {
+    background-color: darkslategray;
 }
