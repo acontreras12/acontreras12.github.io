@@ -3,14 +3,34 @@
 }
 
 div {
-    color:rgb(241, 241, 220);
+    color:white;
 }
 
 body {
     background-color: darkslategray;
 }
 
-.cita {
+.cita, td {
     font-style:italic;
     color:azure;
+    margin-left:20px;
+}
+
+p {
+    color:rgb(241, 241, 220);
+}
+
+.p2 {
+    font-style:normal;
+    margin-left:20px
+}
+code {
+    font-style:normal;
+}
+
+.resumen {
+    font-style:italic;
+    font-size:small;
+    margin:5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -5,10 +5,50 @@
 </head>
 <body>
   <img src="img/imagen_cabecera.png" alt="imagen" height="124px">
-  <h1 class="encabezado">Bienvenidos</h1>
-  <p>Esto es una página web <em>muy</em> básica</p>
+  <h1 class="encabezado">Practicas con html y css</h1>
+  <div class="resumen">Esto es una página web <em>muy</em> básica.
+  En ella vamos a practicar las etiquetas más importantes
+  y cómo cambiar los estilos con <em>hojas <b>css</b></em>.</div>
+  <h2>Etiquetas y divisiones</h2>
+  <div><p>Todas las páginas tienen que estar estructuradas en partes.
+    Vamos a usar párrafos (etiqueta <code>&lt;p&gt;</code>) 
+    y divisiones (etiqueta <code>&lt;div&gt;</code>).
+    Ambas tienen una etiqueta para abrir y otra para cerrar 
+    (con barra diagonal).</p>
+    <p>El párrafo es la unidad básica. Todo párrafo debería usar 
+      estas etiquetas. La división es algo paralelo, para crear <em>"bloques"</em>, y 
+      puede tener dentro párrafos, pero no al revés. La 
+      división puede anidarse.</p>
+    <p>Ejemplos:</p>
+    <div>
+    <table border="1px">
+      <tr>
+        <td>Código</td>
+        <td>Resultado</td>
+      </tr>
+      <tr>
+        <td><code>&lt;div&gt;hola<br/>
+          &nbsp;&nbsp;&lt;div&gt;hola&lt;/div&gt;<br/>
+          &lt;/div&gt;</code></td>
+        <td><div  class="p2">hola<div>hola</div></div></td>
+      </tr>
+    </table></div><br>
+    <div>
+    <table border="1px">
+      <tr>
+        <td>Código</td>
+        <td>Resultado</td>
+      </tr>
+      <tr>
+        <td><code>&lt;div&gt;hola<br/>
+          &nbsp;&nbsp;&lt;p&gt;hola&lt;/p&gt;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+          &lt;/div&gt;</code></td>
+        <td><div  class="p2">hola<p>hola</p></div></td>
+      </tr>
+    </table></div>
+  </div>
   <p>Para poner una imagen se utiliza la etiqueta
-    <code><b>img</b></code>:</p>
+    <code>&lt;img&gt;</code>:</p>
   <img src="img/espada0.jpg" height="200px">
   <div>
     <p>Este es el primer <em>párrafo</em></p>
