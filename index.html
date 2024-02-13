@@ -47,13 +47,14 @@
       </tr>
     </table></div>
   </div>
+  <p>Además, como podéis ver, el párrafo añade una 
+    separación vertical, mientras que la división no 
+    añade espacio vertical. 
+  </p>
   <p>Para poner una imagen se utiliza la etiqueta
     <code>&lt;img&gt;</code>:</p>
   <img src="img/espada0.jpg" height="200px">
-  <div>
-    <p>Este es el primer <em>párrafo</em></p>
-    <p>Este es el segundo <em>párrafo</em></p>
-  </div>
+
   <h2>Cómo funcionan los estilos</h2>
     <div>
         <p>Cuando se carga la página web, la cabeza ("head")
@@ -81,10 +82,47 @@
         </p>
     </div>
 
-  <div><p>
-  <a href="https://github.com/acontreras12">Perfil personal</a>
-  </p>
-  <p style="font-size: small;">Versión 1.0</p>
-  </div>
+  <h2>Tablas</h2>
+    <p>Las tablas usan las etiquetas <code>
+      &lt;table&gt; y &lt;/table&gt;
+    </code></p>
+    <p>Dentro, hay filas, y dentro de las filas
+      hay divisiones horizontales. Se usan <code>
+        &lt;tr&gt; 
+      </code> (<em>fila de tabla</em>), y <code>
+        &lt;td&gt;
+      </code> (<em>celda de dato de tabla</em>), y sus respectivos cierres con /.
+    </p>
+    <p>Ejemplo:</p>
+    <div>
+      <table border="1px">
+        <tr>
+          <td>Código</td>
+          <td>Resultado</td>
+        </tr>
+        <tr>
+          <td><code>&lt;table border&gt;<br/>
+            &nbsp;&nbsp;&lt;tr&gt;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;uno&lt;/td&gt;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;dos&lt;/td&gt;<br/>
+            &nbsp;&nbsp;&lt;/tr&gt;<br/>
+            &lt;/table&gt;</code></td>
+          <td><div>
+            <table border style="margin:20">
+              <tr><td style="font-style:normal;">uno</td><td style="font-style:normal;">dos</td></tr>
+            </table></td>
+        </tr>
+      </table></div>
+      <div><p>Dentro de una celda de datos se pueden 
+        meter imágenes, 
+        enlaces, y cualquier otro elemento. 
+        Incluso otra tabla, cosa que 
+        he tenido que hacer en el ejemplo, como 
+        podéis imaginar.</p></div>
+    <div><p>
+    <a href="https://github.com/acontreras12">Perfil personal</a>
+    </p>
+    <p style="font-size: small;">Versión 1.2</p>
+    </div>
 
 </body>
