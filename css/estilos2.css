@@ -1,0 +1,41 @@
+.encabezado, h2 {
+    color:rgb(255, 250, 97);
+}
+
+div {
+    color:rgb(190, 166, 166);
+}
+
+body {
+    background-color: rgb(14, 34, 34);
+}
+
+.cita, td {
+    font-style:italic;
+    color:rgb(215, 239, 239);
+    margin:40;
+}
+
+p {
+    color:rgb(241, 241, 220);
+}
+
+.p2 {
+    font-style:normal;
+    margin-left:20px
+}
+code {
+    font-style:normal;
+}
+
+.resumen {
+    color:rgb(239, 229, 229);
+    font-style:oblique 23;
+    font-size:small;
+    margin: 10px 40px 25px 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color:rgb(155, 175, 236);
+}
